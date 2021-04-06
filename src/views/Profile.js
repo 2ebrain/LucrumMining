@@ -15,7 +15,7 @@ export default function Profile() {
     const navigation = useNavigation();
 
     function handleNavigateToBalanceDetails(){
-        navigation.navigate('Balance');
+        navigation.navigate('RoutesTab');
     }
     
     return(

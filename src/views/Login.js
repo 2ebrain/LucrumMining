@@ -19,7 +19,7 @@ export default function Login() {
         navigation.navigate('Register');
     }
     function handleNavigateToProfileDetails(){
-        navigation.navigate('Profile');
+        navigation.navigate('RoutesTab');
     }
 
     return(

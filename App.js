@@ -1,8 +1,7 @@
 import React from 'react'
-import { StyleSheet, SafeAreaView, View } from 'react-native'
+import { StyleSheet, SafeAreaView} from 'react-native'
 
-import Routes from './src/Routes'
-import Login from './src/views/Login'
+import Routes from './src/routes/Routes'
 
 export default function App() {
   return (

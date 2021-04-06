@@ -3,11 +3,11 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 
-import Login from '../src/views/Login'
-import Register from '../src/views/Register'
-import Profile from '../src/views/Profile'
-import Balance from '../src/views/Balance'
-
+import Login from '../views/Login'
+import Register from '../views/Register'
+import Profile from '../views/Profile'
+import Balance from '../views/Balance'
+import RoutesTab from '../routes/RoutesTab'
 
 const { Navigator, Screen} = createStackNavigator();
 
@@ -19,6 +19,7 @@ export default function Routes() {
             <Screen name="Register" component={Register} />
             <Screen name="Profile" component={Profile} />
             <Screen name="Balance" component={Balance} />
+            <Screen name="RoutesTab" component={RoutesTab} />
         </Navigator>
     </NavigationContainer>
    );

@@ -16,7 +16,7 @@ export default function Register() {
     const navigation = useNavigation();
 
     function handleNavigateToProfileDetails(){
-        navigation.navigate('Profile');
+        navigation.navigate('RoutesTab');
     }
 
     return(
